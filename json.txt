@@ -1,0 +1,129 @@
+{
+"video": {
+"path": "path/to/video.mp4",
+"resolution": {
+"width": 1920,
+"height": 1080
+},
+"duration": 86400
+},
+"labels": {
+"path": "path/to/labels.csv",
+"classes": [
+{
+"id": 1,
+"name": "грузовой автомобиль"
+},
+{
+"id": 2,
+"name": "трактор"
+},
+{
+"id": 3,
+"name": "экскаватор"
+},
+{
+"id": 4,
+"name": "подъемный кран"
+}
+]
+},
+"events": [
+{
+"id": 1,
+"class_id": 1,
+"class_name": "грузовой автомобиль",
+"entries": [
+{
+"frame": 100,
+"timestamp": "2023-06-25 00:00:00"
+},
+{
+"frame": 500,
+"timestamp": "2023-06-25 06:00:00"
+}
+],
+"exits": [
+{
+"frame": 700,
+"timestamp": "2023-06-25 07:00:00"
+},
+{
+"frame": 900,
+"timestamp": "2023-06-25 08:00:00"
+}
+]
+},
+{
+"id": 2,
+"class_id": 2,
+"class_name": "трактор",
+"entries": [
+{
+"frame": 200,
+"timestamp": "2023-06-25 02:30:00"
+},
+{
+"frame": 600,
+"timestamp": "2023-06-25 10:00:00"
+}
+],
+"exits": [
+{
+"frame": 400,
+"timestamp": "2023-06-25 05:00:00"
+},
+{
+"frame": 800,
+"timestamp": "2023-06-25 09:00:00"
+}
+]
+},
+{
+"id": 3,
+"class_id": 3,
+"class_name": "экскаватор",
+"entries": [
+{
+"frame": 300,
+"timestamp": "2023-06-25 04:00:00"
+},
+{
+"frame": 1000,
+"timestamp": "2023-06-25 12:00:00"
+}
+],
+"exits": [
+{
+"frame": 600,
+"timestamp": "2023-06-25 08:00:00"
+},
+{
+"frame": 1200,
+"timestamp": "2023-06-25 14:00:00"
+}
+]
+},
+{
+"id": 4,
+"class_id": 4,
+"class_name": "подъемный кран",
+"entries": [
+{
+"frame": 400,
+"timestamp": "2023-06-25 08:00:00"
+},
+{
+"frame": 1000,
+"timestamp": "2023-06-25 20:00:00"
+}
+],
+"exits": [
+{
+"frame": 700,
+"timestamp": "2023-06-25 12:00:00"
+}
+]
+}
+]
+}
